@@ -64,7 +64,7 @@ class MobilePhone: MobileStorage {
             print("Sucess! Found mobile imei: \(mobile)")
             return mobile
         }
-        print("Sorry... Cant find mobile imei: \(imei)")
+        print("Sorry... Can't find mobile imei: \(imei)")
         return nil
     }
 

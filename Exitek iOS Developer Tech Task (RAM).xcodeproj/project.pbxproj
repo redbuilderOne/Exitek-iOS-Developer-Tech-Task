@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF5C00BC28C7732900815A33 /* Exitek_iOS_Developer_Tech_Task__RAM_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C00BB28C7732900815A33 /* Exitek_iOS_Developer_Tech_Task__RAM_Tests.swift */; };
 		FFB678B028C60BBB00B3EC4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB678AF28C60BBB00B3EC4A /* AppDelegate.swift */; };
 		FFB678B228C60BBB00B3EC4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB678B128C60BBB00B3EC4A /* SceneDelegate.swift */; };
 		FFB678B428C60BBB00B3EC4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB678B328C60BBB00B3EC4A /* ViewController.swift */; };
@@ -18,7 +19,19 @@
 		FFB678C828C60BF900B3EC4A /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB678C728C60BF900B3EC4A /* Errors.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FF5C00BD28C7732900815A33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB678A428C60BBA00B3EC4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB678AB28C60BBB00B3EC4A;
+			remoteInfo = "Exitek iOS Developer Tech Task (RAM)";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		FF5C00B928C7732900815A33 /* Exitek iOS Developer Tech Task (RAM)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Exitek iOS Developer Tech Task (RAM)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5C00BB28C7732900815A33 /* Exitek_iOS_Developer_Tech_Task__RAM_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exitek_iOS_Developer_Tech_Task__RAM_Tests.swift; sourceTree = "<group>"; };
 		FFB678AC28C60BBB00B3EC4A /* Exitek iOS Developer Tech Task (RAM).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exitek iOS Developer Tech Task (RAM).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB678AF28C60BBB00B3EC4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFB678B128C60BBB00B3EC4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +46,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FF5C00B628C7732900815A33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FFB678A928C60BBB00B3EC4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,10 +63,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF5C00BA28C7732900815A33 /* Exitek iOS Developer Tech Task (RAM)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FF5C00BB28C7732900815A33 /* Exitek_iOS_Developer_Tech_Task__RAM_Tests.swift */,
+			);
+			path = "Exitek iOS Developer Tech Task (RAM)Tests";
+			sourceTree = "<group>";
+		};
 		FFB678A328C60BBA00B3EC4A = {
 			isa = PBXGroup;
 			children = (
 				FFB678AE28C60BBB00B3EC4A /* Exitek iOS Developer Tech Task (RAM) */,
+				FF5C00BA28C7732900815A33 /* Exitek iOS Developer Tech Task (RAM)Tests */,
 				FFB678AD28C60BBB00B3EC4A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				FFB678AC28C60BBB00B3EC4A /* Exitek iOS Developer Tech Task (RAM).app */,
+				FF5C00B928C7732900815A33 /* Exitek iOS Developer Tech Task (RAM)Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +109,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FF5C00B828C7732900815A33 /* Exitek iOS Developer Tech Task (RAM)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5C00C128C7732900815A33 /* Build configuration list for PBXNativeTarget "Exitek iOS Developer Tech Task (RAM)Tests" */;
+			buildPhases = (
+				FF5C00B528C7732900815A33 /* Sources */,
+				FF5C00B628C7732900815A33 /* Frameworks */,
+				FF5C00B728C7732900815A33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF5C00BE28C7732900815A33 /* PBXTargetDependency */,
+			);
+			name = "Exitek iOS Developer Tech Task (RAM)Tests";
+			productName = "Exitek iOS Developer Tech Task (RAM)Tests";
+			productReference = FF5C00B928C7732900815A33 /* Exitek iOS Developer Tech Task (RAM)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FFB678AB28C60BBB00B3EC4A /* Exitek iOS Developer Tech Task (RAM) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFB678C028C60BBC00B3EC4A /* Build configuration list for PBXNativeTarget "Exitek iOS Developer Tech Task (RAM)" */;
@@ -106,6 +154,10 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					FF5C00B828C7732900815A33 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FFB678AB28C60BBB00B3EC4A;
+					};
 					FFB678AB28C60BBB00B3EC4A = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -125,11 +177,19 @@
 			projectRoot = "";
 			targets = (
 				FFB678AB28C60BBB00B3EC4A /* Exitek iOS Developer Tech Task (RAM) */,
+				FF5C00B828C7732900815A33 /* Exitek iOS Developer Tech Task (RAM)Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FF5C00B728C7732900815A33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FFB678AA28C60BBB00B3EC4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -143,6 +203,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FF5C00B528C7732900815A33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5C00BC28C7732900815A33 /* Exitek_iOS_Developer_Tech_Task__RAM_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FFB678A828C60BBB00B3EC4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,6 +225,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF5C00BE28C7732900815A33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFB678AB28C60BBB00B3EC4A /* Exitek iOS Developer Tech Task (RAM) */;
+			targetProxy = FF5C00BD28C7732900815A33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FFB678B528C60BBB00B3EC4A /* Main.storyboard */ = {
@@ -178,6 +254,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FF5C00BF28C7732900815A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BB94GY59F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Exitek-iOS-Developer-Tech-Task--RAM-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exitek iOS Developer Tech Task (RAM).app/Exitek iOS Developer Tech Task (RAM)";
+			};
+			name = Debug;
+		};
+		FF5C00C028C7732900815A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BB94GY59F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Exitek-iOS-Developer-Tech-Task--RAM-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exitek iOS Developer Tech Task (RAM).app/Exitek iOS Developer Tech Task (RAM)";
+			};
+			name = Release;
+		};
 		FFB678BE28C60BBC00B3EC4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -353,6 +465,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FF5C00C128C7732900815A33 /* Build configuration list for PBXNativeTarget "Exitek iOS Developer Tech Task (RAM)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5C00BF28C7732900815A33 /* Debug */,
+				FF5C00C028C7732900815A33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FFB678A728C60BBA00B3EC4A /* Build configuration list for PBXProject "Exitek iOS Developer Tech Task (RAM)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
